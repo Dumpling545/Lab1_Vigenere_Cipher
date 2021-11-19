@@ -1,0 +1,39 @@
+custom:
+  kasiski-search-length: 3
+  kasiski-difference-frequency-threshold: 0.3
+  report:
+    text-file-name: ./text.txt
+    text-lengths:
+      - 1000
+      - 2000
+      - 3000
+      - 4000
+      - 5000
+      - 6000
+      - 7000
+      - 8000
+      - 9000
+      - 10000
+    secret-key-lengths:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+    number-of-texts: 50
+    default-secret-key-lengths:
+      - 3
+      - 8
+      - 12
+    default-text-lengths:
+      - 1000
+      - 2000
+      - 10000
+spring:
+  main:
+    banner-mode: "off"
